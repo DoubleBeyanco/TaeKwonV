@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{138633D7-CE6E-C26E-3C23-5C20AC66AF5D}</ProjectGuid>
+    <ProjectGuid>{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -1148,7 +1148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj">
-      <Project>{EB7F904E-A612-7357-3B14-94328D7E6E23}</Project>
+      <Project>{28A815AC-21D5-1820-99E5-2B33FEF1E7B2}</Project>
       <Name>Unity.RenderPipelines.Universal.Config.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
