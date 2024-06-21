@@ -38,9 +38,9 @@ TagManager:
   - Cockpit_DepthClear
   - 
   - 
-  - 
-  - 
-  - 
+  - Non Physics Layer
+  - LeftHandPhysics
+  - RightHandPhysics
   m_SortingLayers:
   - name: Default
     uniqueID: 0
