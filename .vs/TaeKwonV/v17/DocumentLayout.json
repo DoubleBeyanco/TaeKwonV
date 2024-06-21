@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\taekwonv\\assets\\scripts\\modelmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\modelmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\taekwonv\\assets\\scripts\\cockpitmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cockpitmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\taekwonv\\assets\\asset\\oculus hands physics\\scripts\\handpresence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\asset\\oculus hands physics\\scripts\\handpresence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\scripts\\grabhandpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grabhandpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\oculus hands physics\\scripts\\handpresence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\oculus hands physics\\scripts\\handpresence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\scripts\\cockpitjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cockpitjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\admin\\documents\\github\\taekwonv\\assets\\unitynote\\editor\\editor_selectplayscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\unitynote\\editor\\editor_selectplayscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\scripts\\modelmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\modelmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\asset\\lets make a vr game\\ui 3d examples\\ui_3d\\scripts\\xrslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\asset\\lets make a vr game\\ui 3d examples\\ui_3d\\scripts\\xrslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\scripts\\cockpitthrottle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cockpitthrottle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\scripts\\handcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\scripts\\inputdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\scripts\\handpresencephysics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handpresencephysics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\scripts\\handcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Unitynote\\Editor\\UnitynoteEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Unitynote\\Editor\\UnitynoteEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,32 +55,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HandPresence.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Asset\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
+              "RelativeDocumentMoniker": "Assets\\Asset\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Asset\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
+              "RelativeToolTip": "Assets\\Asset\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA1wBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T08:49:41.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Editor_SelectPlayScene.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Unitynote\\Editor\\Editor_SelectPlayScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Unitynote\\Editor\\Editor_SelectPlayScene.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Unitynote\\Editor\\Editor_SelectPlayScene.cs",
+              "RelativeToolTip": "Assets\\Unitynote\\Editor\\Editor_SelectPlayScene.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T08:18:15.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UnitynoteEditor.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Unitynote\\Editor\\UnitynoteEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Unitynote\\Editor\\UnitynoteEditor.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Unitynote\\Editor\\UnitynoteEditor.cs",
+              "RelativeToolTip": "Assets\\Unitynote\\Editor\\UnitynoteEditor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T08:09:09.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "XRSlider.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Asset\\Lets Make a VR Game\\UI 3D Examples\\UI_3D\\Scripts\\XRSlider.cs",
+              "RelativeDocumentMoniker": "Assets\\Asset\\Lets Make a VR Game\\UI 3D Examples\\UI_3D\\Scripts\\XRSlider.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Asset\\Lets Make a VR Game\\UI 3D Examples\\UI_3D\\Scripts\\XRSlider.cs",
+              "RelativeToolTip": "Assets\\Asset\\Lets Make a VR Game\\UI 3D Examples\\UI_3D\\Scripts\\XRSlider.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAowGoAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T06:53:06.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CockpitThrottle.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Scripts\\CockpitThrottle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CockpitThrottle.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Scripts\\CockpitThrottle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CockpitThrottle.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T03:47:09.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CockpitJoystick.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Scripts\\CockpitJoystick.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CockpitJoystick.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Scripts\\CockpitJoystick.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CockpitJoystick.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwA4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T03:46:16.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ModelMovement.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Scripts\\ModelMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ModelMovement.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Scripts\\ModelMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\ModelMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwB8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:46:48.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T07:46:48.698Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CockPitMovement.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Scripts\\CockPitMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CockPitMovement.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Scripts\\CockPitMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CockPitMovement.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAmwAsAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T06:27:27.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "HandControl.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Scripts\\HandControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HandControl.cs",
@@ -80,52 +152,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "GrabHandPos.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Scripts\\GrabHandPos.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GrabHandPos.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Scripts\\GrabHandPos.cs",
               "RelativeToolTip": "Assets\\Scripts\\GrabHandPos.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAYwBkAAAA/AAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwHgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-20T03:35:59.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HandPresence.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
-              "RelativeDocumentMoniker": "Assets\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
-              "RelativeToolTip": "Assets\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwDkAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T03:02:18.251Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "InputData.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Scripts\\InputData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InputData.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Scripts\\InputData.cs",
               "RelativeToolTip": "Assets\\Scripts\\InputData.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAgwDwAAABGAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwDwAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-20T02:18:11.735Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HandPresencePhysics.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Scripts\\HandPresencePhysics.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HandPresencePhysics.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Scripts\\HandPresencePhysics.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HandPresencePhysics.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAswBsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T01:47:39.919Z"
             }
           ]
         }

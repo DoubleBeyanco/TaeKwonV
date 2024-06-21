@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.PlayerSettings;
 
 public class ModelMovement : MonoBehaviour
 {
     [SerializeField] private GameObject Controller;
+    [SerializeField] private float speed = 0.5f;
     private Rigidbody rb;
+
+    private float gear;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -13,25 +18,27 @@ public class ModelMovement : MonoBehaviour
 
     private void Update()
     {
-        transform.position += Vector3.forward * Time.deltaTime * Controller.transform.rotation.x;
-        Debug.Log("eulerAngle : " + Controller.transform.rotation.x);
+        MoveWithGear();
+    }
+    public void Setgear(float _value)
+    {
+        gear = _value;
+    }
 
-       /* if (Controller.transform.rotation.x > 0)
+    private void MoveWithGear()
+    {
+        transform.position += Vector3.forward * gear * Time.deltaTime * speed;
+    }
+    private void oldway()
+    {
+        float pos = Controller.transform.eulerAngles.x;
+
+        if (pos > 180)
         {
-            transform.position += Vector3.forward * Time.deltaTime * Controller.transform.rotation.x;
-            Debug.Log("eulerAngle : " + Controller.transform.rotation.x);
+            pos = pos - 360;
         }
-        else
-        {
-            rb.AddForce(Vector3.back * Time.deltaTime * -(Controller.transform.rotation.x));
-            Debug.Log("eulerAngle - : " + Controller.transform.rotation.x);
-        }*/
 
-        /*if (Controller.transform.eulerAngles.z > 0)
-        {
-            rb.AddForce(Vecor)
-        }*/
-
-
+        transform.position += Vector3.forward * pos * Time.deltaTime * speed;
+        Debug.Log("Pos: " + pos);
     }
 }

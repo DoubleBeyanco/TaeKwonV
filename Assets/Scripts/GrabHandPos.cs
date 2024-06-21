@@ -37,15 +37,12 @@ public class GrabHandPos : MonoBehaviour
 
     public void SetupPose(BaseInteractionEventArgs arg)
     {
-        Debug.Log("Callback Active");
         Debug.Log(arg.interactorObject);
         Debug.Log(arg.interactableObject);
         if (arg.interactorObject is XRDirectInteractor)
         {
-            Debug.Log("Interactor Active");
             if (arg.interactorObject.transform.GetComponent<HandControl>().controllerCharacteristics.HasFlag(InputDeviceCharacteristics.Right))
             {
-                Debug.Log("RightHand Active");
                 HandPose[1].handAnimator.enabled = false;
                 HandPose[1].gameObject.SetActive(false);
                 RefHandPose.gameObject.SetActive(true);
@@ -53,7 +50,6 @@ public class GrabHandPos : MonoBehaviour
             }
             else if (arg.interactorObject.transform.GetComponent<HandControl>().controllerCharacteristics.HasFlag(InputDeviceCharacteristics.Left))
             {
-                Debug.Log("LeftHand Active");
                 HandPose[0].handAnimator.enabled = false;
                 HandPose[0].gameObject.SetActive(false);
                 RefHandPose.gameObject.SetActive(true);
@@ -71,10 +67,8 @@ public class GrabHandPos : MonoBehaviour
     {
         if (arg.interactorObject is XRDirectInteractor)
         {
-            Debug.Log("Interactor Active");
             if (arg.interactorObject.transform.GetComponent<HandControl>().controllerCharacteristics.HasFlag(InputDeviceCharacteristics.Right))
             {
-                Debug.Log("RightHand Active");
                 HandPose[1].handAnimator.enabled = true;
                 HandPose[1].gameObject.SetActive(true);
                 RefHandPose.gameObject.SetActive(false);
@@ -82,7 +76,6 @@ public class GrabHandPos : MonoBehaviour
             }
             else if (arg.interactorObject.transform.GetComponent<HandControl>().controllerCharacteristics.HasFlag(InputDeviceCharacteristics.Left))
             {
-                Debug.Log("LeftHand Active");
                 HandPose[0].handAnimator.enabled = true;
                 HandPose[0].gameObject.SetActive(true);
                 RefHandPose.gameObject.SetActive(false);
