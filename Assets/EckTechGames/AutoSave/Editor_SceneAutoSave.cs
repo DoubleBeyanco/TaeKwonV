@@ -96,7 +96,6 @@ public static class Editor_SceneAutoSave
 
 	private static void Load()
 	{
-		Debug.Log("Editor_SceneAutoSave::Load()");	// 호출 타이밍 확인 후 삭제
 
 		isActivated				= EditorPrefs.GetBool($"{prefs}{nameof(isActivated)}", false);
 		isShowLogExpanded		= EditorPrefs.GetBool($"{prefs}{nameof(isShowLogExpanded)}", false);
@@ -106,7 +105,6 @@ public static class Editor_SceneAutoSave
 
 	private static void Save()
 	{
-		Debug.Log("Editor_SceneAutoSave::Save()");	// 호출 타이밍 확인 후 삭제
 
 		EditorPrefs.SetBool($"{prefs}{nameof(isActivated)}", isActivated);
 		EditorPrefs.SetBool($"{prefs}{nameof(isShowLogExpanded)}", isShowLogExpanded);
@@ -137,7 +135,6 @@ public static class Editor_SceneAutoSave
 		// 저장 시간이 되었을 때 씬 자동 저장
 		if ( diff > saveCycle )
 		{
-			Debug.Log($"Editor_SceneAutoSave::UpdateAutoSave() - Save Scene");	// 호출 타이밍 확인 후 삭제
 
 			EditorSceneManager.SaveOpenScenes();
 			lastSaveTime = dateTime;

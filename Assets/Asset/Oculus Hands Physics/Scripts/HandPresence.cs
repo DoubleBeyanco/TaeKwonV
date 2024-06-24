@@ -50,16 +50,8 @@ public class HandPresence : MonoBehaviour
 
     private void AimModeAnimation()
     {
-        if (targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool value))
-        {
-            Debug.Log(value);
-            handAnimator.SetBool("isAimMode", true);
-        }
-        else
-        {
-            Debug.Log(value);
-            handAnimator.SetBool("isAimMode", false);
-        }
+        targetDevice.TryGetFeatureValue(CommonUsages.primaryTouch, out bool value);
+        handAnimator.SetBool("AimMode", value);
     }
 
     // Update is called once per frame
@@ -71,10 +63,12 @@ public class HandPresence : MonoBehaviour
         }
         else if (!isModeling)
         {
+            Debug.Log("Real Hand");
             UpdateHandAnimation();
         }
         else if (isModeling)
         {
+            Debug.Log("Fake Hand");
             AimModeAnimation();
         }
     }
