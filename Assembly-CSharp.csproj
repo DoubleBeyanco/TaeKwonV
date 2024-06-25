@@ -81,6 +81,7 @@
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\SceneLoader.cs" />
     <Compile Include="Assets\SharedAssets\FirstPersonController\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\MeteorPiece.cs" />
+    <Compile Include="Assets\TAE\Scripts\Cockpit\WeaponSystem\WeaponSystem.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\CockpitOutline.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\FPSCounter.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\PlayerManager.cs" />
@@ -96,7 +97,7 @@
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\AsyncShaderCompilationForCamera.cs" />
     <Compile Include="Assets\TAE\Scripts\XRHand\GrabHandPos.cs" />
     <Compile Include="Assets\Asset\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\XRPushButton.cs" />
-    <Compile Include="Assets\TAE\Scripts\Cockpit\WeaponShoot.cs" />
+    <Compile Include="Assets\TAE\Scripts\Cockpit\WeaponSystem\MissileLauncher.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\CockpitHUD.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\TimelineLooper.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\GlobalVolumeFeature.cs" />
@@ -106,15 +107,19 @@
     <Compile Include="Assets\TAE\Scripts\XRHand\HandData.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\Boids\Boids.cs" />
     <Compile Include="Assets\Asset\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\XRSlider.cs" />
+    <Compile Include="Assets\TAE\Scripts\Cockpit\WeaponSystem\Missile.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\ScreenController.cs" />
     <Compile Include="Assets\TAE\Scripts\Cockpit\CockpitThrottle.cs" />
     <Compile Include="Assets\EckTechGames\AutoSave\Editor_SelectPlayScene.cs" />
+    <Compile Include="Assets\TAE\Scripts\Cockpit\CockpitSystem.cs" />
     <Compile Include="Assets\SharedAssets\Benchmark\StatsGraphVE.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\ScreenCamera.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\MediaSceneLoader.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\SceneTransitionManager.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\SplineFollower.cs" />
     <Compile Include="Assets\SharedAssets\FirstPersonController\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
+    <Compile Include="Assets\TAE\Scripts\Cockpit\WeaponSystem\Bullet.cs" />
+    <Compile Include="Assets\TAE\Scripts\Cockpit\WeaponSystem\ShotGun.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\Skybox3D.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\FullscreenTransition.cs" />
     <Compile Include="Assets\TAE\Scripts\Cockpit\ModelMovement.cs" />
@@ -131,10 +136,12 @@
     <Compile Include="Assets\Asset\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\XRKnob.cs" />
     <Compile Include="Assets\TAE\Scripts\Input\InputData.cs" />
     <Compile Include="Assets\Asset\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\ClawMachine\ClawMachine.cs" />
+    <Compile Include="Assets\TAE\Scripts\Cockpit\WeaponSystem\MachineGun.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\NpcSplineFollower.cs" />
     <Compile Include="Assets\TAE\Scripts\XRHand\HandControl.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\SpeedParticles.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\TrailRendererClear.cs" />
+    <Compile Include="Assets\TAE\Scripts\Cockpit\WeaponSystem\IWeapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SharedAssets\TextMeshPro\Shaders\TMPro.cginc" />

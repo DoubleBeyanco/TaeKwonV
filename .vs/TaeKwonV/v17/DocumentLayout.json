@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\taekwonv\\assets\\tae\\scripts\\cockpit\\aimmingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\cockpit\\aimmingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\tae\\scripts\\cockpit\\cockpitsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\cockpit\\cockpitsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\taekwonv\\assets\\tae\\scripts\\cockpit\\modelmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\cockpit\\modelmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\tae\\scripts\\cockpit\\weaponsystem\\iweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\cockpit\\weaponsystem\\iweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\taekwonv\\assets\\tae\\scripts\\cockpit\\cockpitjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\taekwonv\\assets\\tae\\scripts\\cockpit\\weaponsystem\\weaponsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\cockpit\\weaponsystem\\weaponsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\tae\\scripts\\cockpit\\cockpitjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\cockpit\\cockpitjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\taekwonv\\assets\\tae\\scripts\\xrhand\\grabhandpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\xrhand\\grabhandpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\tae\\scripts\\cockpit\\weaponsystem\\shotgun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\cockpit\\weaponsystem\\shotgun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\taekwonv\\assets\\asset\\oculus hands physics\\scripts\\handpresence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\tae\\scripts\\cockpit\\weaponsystem\\missilelauncher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\cockpit\\weaponsystem\\missilelauncher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\tae\\scripts\\cockpit\\weaponsystem\\machinegun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\cockpit\\weaponsystem\\machinegun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\asset\\oculus hands physics\\scripts\\handpresence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\asset\\oculus hands physics\\scripts\\handpresence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\taekwonv\\assets\\tae\\scripts\\cockpit\\weaponshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\cockpit\\weaponshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\tae\\scripts\\cockpit\\aimmingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\cockpit\\aimmingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\tae\\scripts\\cockpit\\modelmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\cockpit\\modelmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\tae\\scripts\\xrhand\\grabhandpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\xrhand\\grabhandpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,43 +54,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HandPresence.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Asset\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
-              "RelativeDocumentMoniker": "Assets\\Asset\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Asset\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
-              "RelativeToolTip": "Assets\\Asset\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAA7wDQAAABBAAAA",
+              "DocumentIndex": 0,
+              "Title": "CockpitSystem.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\CockpitSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\TAE\\Scripts\\Cockpit\\CockpitSystem.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\CockpitSystem.cs",
+              "RelativeToolTip": "Assets\\TAE\\Scripts\\Cockpit\\CockpitSystem.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:07:16.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GrabHandPos.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\XRHand\\GrabHandPos.cs",
-              "RelativeDocumentMoniker": "Assets\\TAE\\Scripts\\XRHand\\GrabHandPos.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\XRHand\\GrabHandPos.cs",
-              "RelativeToolTip": "Assets\\TAE\\Scripts\\XRHand\\GrabHandPos.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:06:28.981Z",
+              "WhenOpened": "2024-06-25T08:27:53.748Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "WeaponSystem.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\WeaponSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\WeaponSystem.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\WeaponSystem.cs",
+              "RelativeToolTip": "Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\WeaponSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:35:50.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CockpitJoystick.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\CockpitJoystick.cs",
               "RelativeDocumentMoniker": "Assets\\TAE\\Scripts\\Cockpit\\CockpitJoystick.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\CockpitJoystick.cs",
               "RelativeToolTip": "Assets\\TAE\\Scripts\\Cockpit\\CockpitJoystick.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAwFIAAAAdAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAqwFwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T08:06:04.095Z",
               "EditorCaption": ""
@@ -78,38 +98,102 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "WeaponShoot.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\WeaponShoot.cs",
-              "RelativeDocumentMoniker": "Assets\\TAE\\Scripts\\Cockpit\\WeaponShoot.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\WeaponShoot.cs",
-              "RelativeToolTip": "Assets\\TAE\\Scripts\\Cockpit\\WeaponShoot.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB0AAAAIAAAA",
+              "Title": "MissileLauncher.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\MissileLauncher.cs",
+              "RelativeDocumentMoniker": "Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\MissileLauncher.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\MissileLauncher.cs",
+              "RelativeToolTip": "Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\MissileLauncher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T07:59:05.566Z",
+              "WhenOpened": "2024-06-25T07:05:48.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShotGun.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\ShotGun.cs",
+              "RelativeDocumentMoniker": "Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\ShotGun.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\ShotGun.cs",
+              "RelativeToolTip": "Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\ShotGun.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T07:02:17.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MachineGun.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\MachineGun.cs",
+              "RelativeDocumentMoniker": "Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\MachineGun.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\MachineGun.cs",
+              "RelativeToolTip": "Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\MachineGun.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:36:36.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IWeapon.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\IWeapon.cs",
+              "RelativeDocumentMoniker": "Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\IWeapon.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\IWeapon.cs",
+              "RelativeToolTip": "Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\IWeapon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:37:01.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HandPresence.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Asset\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
+              "RelativeDocumentMoniker": "Assets\\Asset\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\Asset\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
+              "RelativeToolTip": "Assets\\Asset\\Oculus Hands Physics\\Scripts\\HandPresence.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAkwEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T08:07:16.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GrabHandPos.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\XRHand\\GrabHandPos.cs",
+              "RelativeDocumentMoniker": "Assets\\TAE\\Scripts\\XRHand\\GrabHandPos.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\XRHand\\GrabHandPos.cs",
+              "RelativeToolTip": "Assets\\TAE\\Scripts\\XRHand\\GrabHandPos.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwCYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T08:06:28.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ModelMovement.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\ModelMovement.cs",
               "RelativeDocumentMoniker": "Assets\\TAE\\Scripts\\Cockpit\\ModelMovement.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\ModelMovement.cs",
               "RelativeToolTip": "Assets\\TAE\\Scripts\\Cockpit\\ModelMovement.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBoAAAANAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwBoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T07:42:53.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T07:42:53.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "AimmingSystem.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\AimmingSystem.cs",
               "RelativeDocumentMoniker": "Assets\\TAE\\Scripts\\Cockpit\\AimmingSystem.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\AimmingSystem.cs",
               "RelativeToolTip": "Assets\\TAE\\Scripts\\Cockpit\\AimmingSystem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T07:39:33.855Z",
               "EditorCaption": ""

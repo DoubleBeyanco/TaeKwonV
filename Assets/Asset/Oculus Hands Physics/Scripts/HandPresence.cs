@@ -63,12 +63,10 @@ public class HandPresence : MonoBehaviour
         }
         else if (!isModeling)
         {
-            Debug.Log("Real Hand");
             UpdateHandAnimation();
         }
         else if (isModeling)
         {
-            Debug.Log("Fake Hand");
             AimModeAnimation();
         }
     }

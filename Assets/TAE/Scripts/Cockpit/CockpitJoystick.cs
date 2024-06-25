@@ -5,18 +5,22 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class CockpitJoystick : MonoBehaviour
 {
+    public delegate void AimmingModeDelegate(bool _value);
+    private AimmingModeDelegate aimmingModeCallback = null;
+    public AimmingModeDelegate AimmingModeCallback { get { return aimmingModeCallback; } set { aimmingModeCallback = value; } }
     [SerializeField] private InputData input;
     [SerializeField] private AimmingSystem aim;
 
-    private XRSimpleInteractable grabinteractable;
+    //[HideInInspector] public GameObject[]
+    private XRSimpleInteractable interactable;
     private bool isActive = false;
 
     private void Awake()
     {
-        grabinteractable = GetComponent<XRSimpleInteractable>();
+        interactable = GetComponent<XRSimpleInteractable>();
 
-        grabinteractable.selectEntered.AddListener(ControlBody);
-        grabinteractable.selectExited.AddListener(ControlBodyDeActive);
+        interactable.selectEntered.AddListener(ControlBody);
+        interactable.selectExited.AddListener(ControlBodyDeActive);
     }
 
     private void ControlBody(BaseInteractionEventArgs arg)
@@ -42,11 +46,12 @@ public class CockpitJoystick : MonoBehaviour
     {
         while (isActive)
         {
-            input._rightController.TryGetFeatureValue(CommonUsages.primaryButton, out bool _value);
+            input._rightController.TryGetFeatureValue(CommonUsages.primaryButton, out bool _PrimaryButton);
+            input._rightController.TryGetFeatureValue(CommonUsages.triggerButton, out bool _trigger);
 
-            if (_value)
+            if (_PrimaryButton)
             {
-                AimmingMod();
+                AimmingMod(_trigger);
                 TrackingAim();
             }
             else
@@ -80,8 +85,9 @@ public class CockpitJoystick : MonoBehaviour
         transform.localRotation = targetRotation;
     }
 
-    private void AimmingMod()
+    private void AimmingMod(bool _value)
     {
-        aim.actualAimCalc(transform.localEulerAngles);
+        aimmingModeCallback?.Invoke(_value);
     }
+
 }

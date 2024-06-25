@@ -19,11 +19,11 @@ public class GrabHandPos : MonoBehaviour
     private Quaternion[] finalFingerRoatitions;
     private void Awake()
     {
-        /*XRSimpleInteractable grabinteractable = GetComponent<XRSimpleInteractable>();
+        /*XRSimpleInteractable interactable = GetComponent<XRSimpleInteractable>();
         XRSimpleInteractable
 
-        grabinteractable.selectEntered.AddListener(SetupPose);
-        grabinteractable.selectExited.AddListener(UnsetPose);*/
+        interactable.selectEntered.AddListener(SetupPose);
+        interactable.selectExited.AddListener(UnsetPose);*/
 
         RefHandPose = GetComponentInChildren<HandPresence>();
 
@@ -37,8 +37,6 @@ public class GrabHandPos : MonoBehaviour
 
     public void SetupPose(BaseInteractionEventArgs arg)
     {
-        Debug.Log(arg.interactorObject);
-        Debug.Log(arg.interactableObject);
         if (arg.interactorObject is XRDirectInteractor)
         {
             if (arg.interactorObject.transform.GetComponent<HandControl>().controllerCharacteristics.HasFlag(InputDeviceCharacteristics.Right))
@@ -56,7 +54,6 @@ public class GrabHandPos : MonoBehaviour
                 CurHand = HandPose[0];
             }
 
-            Debug.Log(CurHand);
             SetHandDataValues(CurHand, RefHandPose);
             SetHandData(CurHand, finalHandPosition, finalHandRotation, finalFingerRoatitions);
             
