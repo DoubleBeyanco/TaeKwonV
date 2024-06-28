@@ -5,15 +5,16 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class CockpitJoystick : MonoBehaviour
 {
-    public delegate void AimmingModeDelegate(bool _value);
-    private AimmingModeDelegate aimmingModeCallback = null;
-    public AimmingModeDelegate AimmingModeCallback { get { return aimmingModeCallback; } set { aimmingModeCallback = value; } }
-    [SerializeField] private InputData input;
-    [SerializeField] private AimmingSystem aim;
+    public delegate void AimingModeDelegate(bool _value);
+    private AimingModeDelegate aimingModeCallback = null;
+    public AimingModeDelegate AimingModeCallback { get { return aimingModeCallback; } set { aimingModeCallback = value; } }
 
-    //[HideInInspector] public GameObject[]
+    [SerializeField] private InputData input;
+    [SerializeField] private AimingSystem aim;
+
     private XRSimpleInteractable interactable;
-    private bool isActive = false;
+    public bool isActive { get; private set; } = false;
+    public bool IsPrimaryButtonPressed { get; private set; } = false;
 
     private void Awake()
     {
@@ -38,7 +39,6 @@ public class CockpitJoystick : MonoBehaviour
         {
             isActive = false;
             transform.localRotation = Quaternion.identity;
-            Debug.Log("Deactivate :" + transform.eulerAngles);
         }
     }
 
@@ -46,48 +46,48 @@ public class CockpitJoystick : MonoBehaviour
     {
         while (isActive)
         {
-            input._rightController.TryGetFeatureValue(CommonUsages.primaryButton, out bool _PrimaryButton);
+            input._rightController.TryGetFeatureValue(CommonUsages.primaryButton, out bool _primaryButton);
             input._rightController.TryGetFeatureValue(CommonUsages.triggerButton, out bool _trigger);
 
-            if (_PrimaryButton)
+            IsPrimaryButtonPressed = _primaryButton; // Primary 버튼 상태 저장
+
+            if (_primaryButton)
             {
-                AimmingMod(_trigger);
+                AimingMode(_trigger);
                 TrackingAim();
             }
             else
             {
+                AimingMode(false); // Primary 버튼이 떼어질 때 발사를 중지
                 TrackingRotCal();
             }
 
             yield return null;
         }
-
-        yield break;
     }
 
     private void TrackingRotCal()
     {
-        input._rightController.TryGetFeatureValue(CommonUsages.deviceRotation, out Quaternion rot);
-
-        // 현재 로컬 회전을 업데이트
-        Quaternion targetRotation = Quaternion.Euler(0, 0, rot.eulerAngles.z);
-
-        transform.localRotation = targetRotation;
+        if (input._rightController.TryGetFeatureValue(CommonUsages.deviceRotation, out Quaternion rot))
+        {
+            // 현재 로컬 회전을 업데이트
+            Quaternion targetRotation = Quaternion.Euler(0, 0, rot.eulerAngles.z);
+            transform.localRotation = targetRotation;
+        }
     }
 
     private void TrackingAim()
     {
-        input._rightController.TryGetFeatureValue(CommonUsages.deviceRotation, out Quaternion rot);
-
-        // 실제 에임 모드에서는 x, z 축 모두 업데이트
-        Quaternion targetRotation = Quaternion.Euler(rot.eulerAngles.x, 0, rot.eulerAngles.z);
-
-        transform.localRotation = targetRotation;
+        if (input._rightController.TryGetFeatureValue(CommonUsages.deviceRotation, out Quaternion rot))
+        {
+            // 실제 에임 모드에서는 x, z 축 모두 업데이트
+            Quaternion targetRotation = Quaternion.Euler(rot.eulerAngles.x, 0, rot.eulerAngles.z);
+            transform.localRotation = targetRotation;
+        }
     }
 
-    private void AimmingMod(bool _value)
+    private void AimingMode(bool _value)
     {
-        aimmingModeCallback?.Invoke(_value);
+        aimingModeCallback?.Invoke(_value);
     }
-
 }

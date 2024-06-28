@@ -1,47 +1,61 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.VFX;
 
 public class Bullet : MonoBehaviour
 {
     private bool isShoot = false;
-    private VisualEffect vfx;
-    private float bullet_DMG;
-    private float speed;
-    private Vector3 direction;
     private GameObject owner;
-    public float Bullet_DMG { get { return bullet_DMG; } set {  bullet_DMG = value; } } 
-    public GameObject Owner { get { return owner; } set { owner = value; } }
-    public VisualEffect VFX { get { return vfx; } set { vfx = value; } }
+    private Vector3 direction;
+    private float speed;
+    private float range;
+    private float bullet_DMG;
+    private Vector3 startPosition;
 
-    private void Awake()
-    {
-        vfx = GetComponent<VisualEffect>();
-        vfx.SetFloat("Life Time", 10f);
-    }
     private void Update()
     {
         if (isShoot)
         {
-            this.transform.Translate(direction * speed * Time.deltaTime);
+            MoveBullet();
+            CheckRange();
         }
     }
-    private void DestroyFunction()
+
+    private void MoveBullet()
+    {
+        this.transform.Translate(direction * speed * Time.deltaTime, Space.World);
+    }
+
+    private void CheckRange()
+    {
+        if (Vector3.Distance(startPosition, this.transform.position) >= range)
+        {
+            DestroyBullet();
+        }
+    }
+
+    private void DestroyBullet()
     {
         Destroy(this.gameObject);
     }
+
     private void OnTriggerEnter(Collider other)
     {
-        DestroyFunction();
+ 
     }
-    public void Shoot(GameObject _owner, Vector3 _dir)
+
+    public void Prepare(GameObject _owner, Vector3 _targetPosition, float _speed, float _range, float _damage)
     {
         owner = _owner;
-        direction = _dir;
-        isShoot = true;
-
-        Invoke("DestroyFunction", 5f);
+        direction = (_targetPosition - this.transform.position).normalized; // 타겟 방향 계산
+        speed = _speed;
+        range = _range / 2;
+        bullet_DMG = _damage;
+        startPosition = this.transform.position; // 시작 위치 저장
     }
 
+    public void Shoot()
+    {
+        isShoot = true;
+    }
 }

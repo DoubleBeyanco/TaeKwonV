@@ -22,7 +22,7 @@ public class ModelMovement : MonoBehaviour
 
     private void Update()
     {
-        input._rightController.TryGetFeatureValue(CommonUsages.primaryTouch, out bool _value);
+        input._rightController.TryGetFeatureValue(CommonUsages.primaryButton, out bool _value);
 
         if (!_value)
         {

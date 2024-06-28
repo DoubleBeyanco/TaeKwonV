@@ -3,34 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VFX;
 
-public class MachineGun : MonoBehaviour, IWeapon
+public class MachineGun : MonoBehaviour
 {
-    [SerializeField] private int Range = 300;
-    [SerializeField] private VisualEffectAsset Effect;
-    [SerializeField] private GameObject Bullet;
-    [HideInInspector] public IWeapon.WeaponType CurWeaponType = IWeapon.WeaponType.MG;
-    public float Damage = 10f;
+    public int Range = 300;
+    public float Damage = 1f;
+    public float Speed = 100f;
+    public GameObject Bullet;
+    public bool ContinuousFire = true;
 
-    private GameObject owner;
-
-    private void Awake()
+    public void VivePattern(InputData _controller)
     {
-        owner = transform.parent.parent.parent.gameObject;
-    }
-
-    public void Fire()
-    {
-        GameObject go = Instantiate(Bullet);
-        Bullet bullet = go.GetComponent<Bullet>();
-        bullet.VFX.visualEffectAsset = Effect;
-        bullet.Bullet_DMG = Damage;
-        bullet.Owner = owner;
-        bullet.Shoot(owner, this.transform.forward);
-        
-    }
-
-    public void ViveratePattern()
-    {
-        
+        // 진동 구현해야 함.
     }
 }

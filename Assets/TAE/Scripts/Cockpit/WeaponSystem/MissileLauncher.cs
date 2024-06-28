@@ -3,38 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VFX;
 
-public class MissileLauncher : MonoBehaviour, IWeapon
+public class MissileLauncher : MonoBehaviour
 {
-    [SerializeField] private int Range = 100;
-    [SerializeField] private VisualEffectAsset Effect;
-    [SerializeField] private GameObject Bullet;
-    [HideInInspector] public IWeapon.WeaponType CurWeaponType = IWeapon.WeaponType.ML;
-    public float Damage = 10f;
-    private GameObject owner;
+    public int Range = 300;
+    //public VisualEffectAsset Effect;
+    public float Damage = 1f;
+    public bool ContinuousFire = false;
 
-    private void Awake()
-    {
-        owner = transform.parent.parent.parent.gameObject;
-    }
 
-    public void Fire()
-    {
-        GameObject go = Instantiate(Bullet);
-        Bullet bullet = go.GetComponent<Bullet>();
-        bullet.VFX.visualEffectAsset = Effect;
-        bullet.Bullet_DMG = Damage;
-        bullet.Owner = owner;
-        bullet.Shoot(owner, this.transform.forward);
-
-    }
-
-    public void ViveratePattern()
+    public void LockOn()
     {
 
     }
 
-    private void HomingTracking()
+    public void VivePattern(InputData _controller)
     {
-
+        // 진동 구현해야 함.
     }
 }

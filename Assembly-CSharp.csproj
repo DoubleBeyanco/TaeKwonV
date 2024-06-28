@@ -81,7 +81,6 @@
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\SceneLoader.cs" />
     <Compile Include="Assets\SharedAssets\FirstPersonController\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\MeteorPiece.cs" />
-    <Compile Include="Assets\TAE\Scripts\Cockpit\WeaponSystem\WeaponSystem.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\CockpitOutline.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\FPSCounter.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\PlayerManager.cs" />
@@ -123,6 +122,7 @@
     <Compile Include="Assets\Scenes\Cockpit\Scripts\Skybox3D.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\FullscreenTransition.cs" />
     <Compile Include="Assets\TAE\Scripts\Cockpit\ModelMovement.cs" />
+    <Compile Include="Assets\TAE\Scripts\RecenterOrigin.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\DeviceTypeUI.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\WormLazerBeam.cs" />
     <Compile Include="Assets\EckTechGames\AutoSave\Editor_SceneAutoSave.cs" />
@@ -141,7 +141,6 @@
     <Compile Include="Assets\TAE\Scripts\XRHand\HandControl.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\SpeedParticles.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\TrailRendererClear.cs" />
-    <Compile Include="Assets\TAE\Scripts\Cockpit\WeaponSystem\IWeapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SharedAssets\TextMeshPro\Shaders\TMPro.cginc" />
