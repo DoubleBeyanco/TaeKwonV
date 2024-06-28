@@ -58,7 +58,7 @@ public class CockpitJoystick : MonoBehaviour
             }
             else
             {
-                AimingMode(false); // Primary 버튼이 떼어질 때 발사를 중지
+                //AimingMode(false); // Primary 버튼이 떼어질 때 발사를 중지
                 TrackingRotCal();
             }
 

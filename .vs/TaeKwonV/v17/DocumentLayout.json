@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\tae\\scripts\\cockpit\\cockpitjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\taekwonv\\assets\\tae\\scripts\\cockpit\\cockpitjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\cockpit\\cockpitjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\tae\\scripts\\cockpit\\aimmingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\cockpit\\aimmingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\tae\\scripts\\cockpit\\cockpitsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\cockpit\\cockpitsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\taekwonv\\assets\\tae\\scripts\\cockpit\\aimmingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\cockpit\\aimmingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\tae\\scripts\\cockpit\\weaponsystem\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\cockpit\\weaponsystem\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\taekwonv\\assets\\tae\\scripts\\recenterorigin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\assets\\tae\\scripts\\recenterorigin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}|Assembly-CSharp.csproj|solutionrelative:assets\\tae\\scripts\\recenterorigin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -70,8 +70,7 @@
               "RelativeToolTip": "Assets\\TAE\\Scripts\\RecenterOrigin.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAA9wBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T02:38:18.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-28T02:38:18.989Z"
             },
             {
               "$type": "Document",
@@ -131,12 +130,11 @@
               "RelativeToolTip": "Assets\\TAE\\Scripts\\Cockpit\\WeaponSystem\\Bullet.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAQwC8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T01:36:00.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T01:36:00.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CockpitSystem.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\CockpitSystem.cs",
               "RelativeDocumentMoniker": "Assets\\TAE\\Scripts\\Cockpit\\CockpitSystem.cs",
@@ -144,8 +142,7 @@
               "RelativeToolTip": "Assets\\TAE\\Scripts\\Cockpit\\CockpitSystem.cs",
               "ViewState": "AQIAAJ4AAAAAAAAAAADwv7gAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T08:27:53.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T08:27:53.748Z"
             },
             {
               "$type": "Document",
@@ -155,14 +152,14 @@
               "RelativeDocumentMoniker": "Assets\\TAE\\Scripts\\Cockpit\\CockpitJoystick.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\CockpitJoystick.cs",
               "RelativeToolTip": "Assets\\TAE\\Scripts\\Cockpit\\CockpitJoystick.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAADwvxcAAAA0AAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAswDcAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T08:06:04.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AimmingSystem.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\TaeKwonV\\Assets\\TAE\\Scripts\\Cockpit\\AimmingSystem.cs",
               "RelativeDocumentMoniker": "Assets\\TAE\\Scripts\\Cockpit\\AimmingSystem.cs",

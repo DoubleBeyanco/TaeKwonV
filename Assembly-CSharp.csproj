@@ -121,8 +121,8 @@
     <Compile Include="Assets\TAE\Scripts\Cockpit\WeaponSystem\ShotGun.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\Skybox3D.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\FullscreenTransition.cs" />
-    <Compile Include="Assets\TAE\Scripts\Cockpit\ModelMovement.cs" />
     <Compile Include="Assets\TAE\Scripts\RecenterOrigin.cs" />
+    <Compile Include="Assets\TAE\Scripts\Cockpit\ModelMovement.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\DeviceTypeUI.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\WormLazerBeam.cs" />
     <Compile Include="Assets\EckTechGames\AutoSave\Editor_SceneAutoSave.cs" />
