@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4E8E7BCE-EACE-7F48-D0BC-8BB7D57D2EC0}</ProjectGuid>
+    <ProjectGuid>{47D2A0D4-F911-F118-04DC-6A5E535357B0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VFXGraph.OutputEventHandlers</AssemblyName>

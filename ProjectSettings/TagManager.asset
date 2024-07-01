@@ -15,6 +15,8 @@ TagManager:
   - BattleShip
   - BattleShipRazer
   - AimPannel
+  - PlayerBullet
+  - PlayerSkill
   layers:
   - Default
   - TransparentFX
@@ -44,7 +46,7 @@ TagManager:
   - Cockpit_BG
   - Cockpit_DepthClear
   - 
-  - 
+  - Gaze
   - NonPhysicsLayers
   - LeftHandPhysics
   - RightHandPhysics

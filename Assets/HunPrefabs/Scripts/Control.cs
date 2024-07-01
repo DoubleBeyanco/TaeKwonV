@@ -63,7 +63,7 @@ public class Control : MonoBehaviour
         for (int b = 0; b < numberOfBoids; b++)
         {
             boids[b] = new Boid(b);
-            Debug.Log(boids[b].body.name);
+            //Debug.Log(boids[b].body.name);
             ufobody[b] = boids[b].body.gameObject.GetComponent<UFOBody>();
 
             if (boids[b].shootPoint != null)

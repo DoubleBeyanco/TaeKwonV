@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CDF1218E-4F70-06D5-99C8-6984A4DD4A85}</ProjectGuid>
+    <ProjectGuid>{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -84,31 +84,37 @@
     <Compile Include="Assets\Scenes\Cockpit\Scripts\DollyOffset.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\DisableIfTransitionManager.cs" />
     <Compile Include="Assets\HunPrefabs\Scripts\Ast.cs" />
+    <Compile Include="Assets\TAE\Scripts\UI\TootipInput.cs" />
     <Compile Include="Assets\HunPrefabs\Scripts\ShockWave.cs" />
     <Compile Include="Assets\Asset\Oculus Hands Physics\Scripts\HandPresence.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\SceneLoader.cs" />
     <Compile Include="Assets\HunPrefabs\Scripts\WormMove.cs" />
     <Compile Include="Assets\SharedAssets\FirstPersonController\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\MeteorPiece.cs" />
+    <Compile Include="Assets\TAE\Scripts\Cockpit\WeaponSystem\WeaponSystem.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\CockpitOutline.cs" />
     <Compile Include="Assets\HunPrefabs\Scripts\ShootPoint.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\FPSCounter.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\PlayerManager.cs" />
     <Compile Include="Assets\SharedAssets\FirstPersonController\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
     <Compile Include="Assets\SharedAssets\Benchmark\PerformanceTestUtilities.cs" />
+    <Compile Include="Assets\EckTechGames\Editor_SceneAutoSave.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\Boids\GetClosestBoidTest.cs" />
     <Compile Include="Assets\SharedAssets\FirstPersonController\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\SharedAssets\FirstPersonController\InputSystem\FirstPersonInputs.cs" />
     <Compile Include="Assets\HunPrefabs\Scripts\BattleShip.cs" />
+    <Compile Include="Assets\EckTechGames\UnitynoteEditor.cs" />
     <Compile Include="Assets\HunPrefabs\Scripts\BoidAll.cs" />
     <Compile Include="Assets\HunPrefabs\Scripts\WhaleMove.cs" />
     <Compile Include="Assets\SharedAssets\FirstPersonController\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\CapitalShipCannon.cs" />
     <Compile Include="Assets\Asset\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\ClawMachine\FlippyDoor.cs" />
+    <Compile Include="Assets\TAE\Scripts\UI\VerticalBillboard.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\AsyncShaderCompilationForCamera.cs" />
     <Compile Include="Assets\TAE\Scripts\XRHand\GrabHandPos.cs" />
     <Compile Include="Assets\Asset\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\XRPushButton.cs" />
+    <Compile Include="Assets\TAE\Scripts\DebugTEst.cs" />
     <Compile Include="Assets\TAE\Scripts\Cockpit\WeaponSystem\MissileLauncher.cs" />
     <Compile Include="Assets\Scenes\Oasis\Scripts\Runtime\HDRFogOverride.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\CockpitHUD.cs" />
@@ -116,6 +122,7 @@
     <Compile Include="Assets\Scenes\Cockpit\Scripts\TimelineLooper.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\GlobalVolumeFeature.cs" />
     <Compile Include="Assets\Asset\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\XRGripButton.cs" />
+    <Compile Include="Assets\TAE\Scripts\UI\TwoPointLine.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\Wobble.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\FullscreenEffect.cs" />
     <Compile Include="Assets\TAE\Scripts\XRHand\HandData.cs" />
@@ -126,6 +133,7 @@
     <Compile Include="Assets\HunPrefabs\Scripts\PlayerHun.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Runtime\ScreenController.cs" />
     <Compile Include="Assets\TAE\Scripts\Cockpit\CockpitThrottle.cs" />
+    <Compile Include="Assets\EckTechGames\Editor_SelectPlayScene.cs" />
     <Compile Include="Assets\TAE\Scripts\Cockpit\CockpitSystem.cs" />
     <Compile Include="Assets\Scenes\Garden\Scripts\Runtime\WashiLightController.cs" />
     <Compile Include="Assets\SharedAssets\Benchmark\StatsGraphVE.cs" />
@@ -174,17 +182,16 @@
     <Compile Include="Assets\Scenes\Oasis\Scripts\Runtime\OasisFog.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\TrailRendererClear.cs" />
     <Compile Include="Assets\JIN\Scripts\Shoot.cs" />
+    <Compile Include="Assets\TAE\Scripts\Cockpit\WeaponSystem\IWeapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SharedAssets\TextMeshPro\Shaders\TMPro.cginc" />
     <None Include="Assets\SharedAssets\TextMeshPro\Shaders\TMP_SDF-Mobile-Overlay.shader" />
     <None Include="Assets\SharedAssets\TextMeshPro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\SharedAssets\TextMeshPro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Scenes\Cockpit\Shaders\ToonLighting.hlsl" />
     <None Include="Assets\SharedAssets\Benchmark\BenchmarkUI.uxml" />
     <None Include="Assets\SharedAssets\Benchmark\BenchmarkUI.uss" />
     <None Include="Assets\SharedAssets\TextMeshPro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\SharedAssets\TextMeshPro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\SharedAssets\TextMeshPro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\SharedAssets\TextMeshPro\Shaders\TMP_SDF-SSD.shader" />
     <None Include="Assets\SharedAssets\Benchmark\TestData.uxml" />
@@ -201,7 +208,6 @@
     <None Include="Assets\Asset\HiRezSpaceshipsCreatorFree\Readme.txt" />
     <None Include="Assets\SharedAssets\TextMeshPro\Resources\LineBreaking_Leading_Characters.txt" />
     <None Include="Assets\SharedAssets\TextMeshPro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\SharedAssets\TextMeshPro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\SharedAssets\TextMeshPro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Scenes\Garden\Shaders\GravelsPixelDepthOffset_Shader.shader" />
     <None Include="Assets\SharedAssets\TextMeshPro\Resources\LineBreaking_Following_Characters.txt" />
@@ -1284,23 +1290,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj">
-      <Project>{A9F72339-E78E-2506-F993-27049A1509CE}</Project>
+      <Project>{28A815AC-21D5-1820-99E5-2B33FEF1E7B2}</Project>
       <Name>Unity.RenderPipelines.Universal.Config.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="VFXGraph.OutputEventHandlers.csproj">
-      <Project>{4E8E7BCE-EACE-7F48-D0BC-8BB7D57D2EC0}</Project>
+      <Project>{47D2A0D4-F911-F118-04DC-6A5E535357B0}</Project>
       <Name>VFXGraph.OutputEventHandlers</Name>
     </ProjectReference>
     <ProjectReference Include="VFXGraph.OutputEventHandlers.Editor.csproj">
-      <Project>{C15C1892-9AB0-45DA-5E2E-8324921B9AAE}</Project>
+      <Project>{5567966D-55C8-F02D-2D67-44F6911E7736}</Project>
       <Name>VFXGraph.OutputEventHandlers.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{689E8F48-85CF-7B09-44D5-AF332FC95194}</Project>
+      <Project>{8A83D0AE-919D-6EA4-07CA-C22D061D6FDA}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
-      <Project>{0A5232BB-A511-72F5-D924-6E0275DD1C47}</Project>
+      <Project>{9A9985EF-F5C9-B501-7CBB-713E7593DE87}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
     </ProjectReference>
   </ItemGroup>
