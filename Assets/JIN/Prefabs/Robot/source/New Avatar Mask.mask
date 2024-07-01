@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Avatar Mask
+  m_Mask: 01000000000000000000000001000000010000000000000000000000000000000000000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: lg06_124453
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipL
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipL/ThighL
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipL/ThighL/KneeL
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipL/ThighL/KneeL/PistonTL
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipL/ThighL/KneeL/ShaftBL
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipL/ThighL/KneeL/ShinL
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipL/ThighL/KneeL/ShinL/AnkleL
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipL/ThighL/KneeL/ShinL/AnkleL/FootL
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipL/ThighL/KneeL/ShinL/AnkleL/FootL/ToeL
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipL/ThighL/KneeL/ShinL/PistonBL
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipL/ThighL/ShaftTL
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipR
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipR/ThighR
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipR/ThighR/KneeR
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipR/ThighR/KneeR/PistonTR
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipR/ThighR/KneeR/ShaftBR
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipR/ThighR/KneeR/ShinR
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipR/ThighR/KneeR/ShinR/AnkleR
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipR/ThighR/KneeR/ShinR/AnkleR/FootR
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipR/ThighR/KneeR/ShinR/AnkleR/FootR/ToeR
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipR/ThighR/KneeR/ShinR/PistonBR
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/HipR/ThighR/ShaftTR
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/Top
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/Top/ArmL
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/Top/ArmL/GunL
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/Top/ArmL/WeaponL
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/Top/ArmR
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/Top/ArmR/GunR
+    m_Weight: 1
+  - m_Path: lg06_124453/Ab/Top/ArmR/WeaponR
+    m_Weight: 1
+  - m_Path: lg06_124453/lg06_124453.Shape
+    m_Weight: 1

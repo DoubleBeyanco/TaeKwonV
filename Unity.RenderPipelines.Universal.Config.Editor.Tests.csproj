@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E9A72089-4420-9FBC-806B-321CFA80EF0C}</ProjectGuid>
+    <ProjectGuid>{1B2C8D83-E1F2-B409-D44D-8A56620B266F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.RenderPipelines.Universal.Config.Editor.Tests</AssemblyName>

@@ -13,6 +13,7 @@ public class CockpitSystem : MonoBehaviour
     [SerializeField] private GameObject[] weaponList;
     [SerializeField] private Transform target;
     [SerializeField] private Transform[] shootPositions;
+    [SerializeField] private Transform Test;
 
     private CockpitJoystick stick;
     private AimingSystem aim;

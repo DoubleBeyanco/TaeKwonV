@@ -7218,8 +7218,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2897210196293540057}
+  - component: {fileID: 849402921265801761}
   - component: {fileID: 4914408870129223407}
-  - component: {fileID: 7351335819485105523}
   - component: {fileID: 5623261298258428619}
   m_Layer: 0
   m_Name: VR_Model(CockPit)-XR Origin
@@ -7248,24 +7248,7 @@ Transform:
   - {fileID: 5183733545963410525}
   m_Father: {fileID: 6125069092645033539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4914408870129223407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4776463828051988485}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 898c4186a4543564fbb27c4b0490d68c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Controller: {fileID: 3133117358117468786}
-  input: {fileID: 3331886419543053283}
-  speed: 0.5
-  rotspeed: 1
-  rotationSensitivity: 2
---- !u!114 &7351335819485105523
+--- !u!114 &849402921265801761
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7285,6 +7268,24 @@ MonoBehaviour:
   shootPositions:
   - {fileID: 2578652145401821297}
   - {fileID: 4703137847860798557}
+  Test: {fileID: 0}
+--- !u!114 &4914408870129223407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4776463828051988485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898c4186a4543564fbb27c4b0490d68c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Controller: {fileID: 3133117358117468786}
+  input: {fileID: 3331886419543053283}
+  speed: 0.5
+  rotspeed: 1
+  rotationSensitivity: 2
 --- !u!54 &5623261298258428619
 Rigidbody:
   m_ObjectHideFlags: 0

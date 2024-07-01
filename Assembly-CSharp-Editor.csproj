@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4141C96F-9EF2-1CA1-CE6C-DFDBD74FB41F}</ProjectGuid>
+    <ProjectGuid>{4FF8442E-24E1-BF27-9942-60FFB8A243D1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -60,11 +60,11 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.33f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EckTechGames\AutoSave\Editor\AutoSaveExtension.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Editor\LodLightmapCopy.cs" />
     <Compile Include="Assets\SharedAssets\Benchmark\Editor\PerformanceTestEditor.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Editor\NamingConvention.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Editor\GradientTexture.cs" />
+    <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Editor\DirectionalLightmapperCorrector.cs" />
     <Compile Include="Assets\Scenes\Cockpit\Scripts\Boids\Editor\BoidsEditor.cs" />
     <Compile Include="Assets\SharedAssets\Scripts\Editor\PrefabReplacer.cs" />
@@ -972,6 +972,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Animation.Rigging.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1026,6 +1030,10 @@
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.XR.Oculus.Editor">
@@ -1171,23 +1179,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{A50005D2-37E2-6E73-7CD1-55D994C4A6A9}</Project>
+      <Project>{CDF1218E-4F70-06D5-99C8-6984A4DD4A85}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj">
-      <Project>{28A815AC-21D5-1820-99E5-2B33FEF1E7B2}</Project>
+      <Project>{A9F72339-E78E-2506-F993-27049A1509CE}</Project>
       <Name>Unity.RenderPipelines.Universal.Config.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj">
-      <Project>{E62AAAAC-47A7-8852-C370-C1D3CAD42061}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator</Name>
+    <ProjectReference Include="VFXGraph.OutputEventHandlers.csproj">
+      <Project>{4E8E7BCE-EACE-7F48-D0BC-8BB7D57D2EC0}</Project>
+      <Name>VFXGraph.OutputEventHandlers</Name>
+    </ProjectReference>
+    <ProjectReference Include="VFXGraph.OutputEventHandlers.Editor.csproj">
+      <Project>{C15C1892-9AB0-45DA-5E2E-8324921B9AAE}</Project>
+      <Name>VFXGraph.OutputEventHandlers.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{8A83D0AE-919D-6EA4-07CA-C22D061D6FDA}</Project>
+      <Project>{689E8F48-85CF-7B09-44D5-AF332FC95194}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
-      <Project>{9A9985EF-F5C9-B501-7CBB-713E7593DE87}</Project>
+      <Project>{0A5232BB-A511-72F5-D924-6E0275DD1C47}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
     </ProjectReference>
   </ItemGroup>

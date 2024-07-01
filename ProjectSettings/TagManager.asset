@@ -8,6 +8,12 @@ TagManager:
   - CinemachineTarget
   - ScreenCamera
   - cockpit_capitalLaser
+  - UFOBullet
+  - Whale
+  - Piece
+  - BeamHit
+  - BattleShip
+  - BattleShipRazer
   - AimPannel
   layers:
   - Default
@@ -23,7 +29,7 @@ TagManager:
   - Occluder
   - Camera
   - MainCameraOnly
-  - 
+  - NoCulling
   - 
   - 
   - 
@@ -39,7 +45,7 @@ TagManager:
   - Cockpit_DepthClear
   - 
   - 
-  - Non Physics Layer
+  - NonPhysicsLayers
   - LeftHandPhysics
   - RightHandPhysics
   m_SortingLayers:
